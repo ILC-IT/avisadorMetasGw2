@@ -1,5 +1,5 @@
 const zonaHoraria = -new Date().getTimezoneOffset() / 60;
-const diferenciaHoras = zonaHoraria - 2; // NO CAMBIAR. Los horarios de las varibales están en UTC+2
+const diferenciaHoras = zonaHoraria - 2; // NO CAMBIAR. Los horarios de las variables están en UTC+2
 
 function ajustarHora(horaStr, diff) {
   let [h, m] = horaStr.split(":").map(Number);
@@ -170,6 +170,11 @@ const eventosOriginales = [
     nombre: "Starlit Weald",
     horarios: ["01:40", "03:40", "05:40", "07:40", "09:40", "11:40", "13:40", "15:40", "17:40", "19:40", "21:40", "23:40"],
     puntoRuta: "[&BJ4PAAA=]"
+  },
+  {
+    nombre: "Eternity's Garden",
+    horarios: ["1:10", "3:10", "5:10", "7:10", "9:10", "11:10", "13:10", "15:10", "17:10", "19:10", "21:10", "23:10"],
+    puntoRuta: "[&BPwPAAA=]"
   },
   {
     nombre: "Convergence Soto",
